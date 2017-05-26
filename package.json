@@ -20,8 +20,13 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "body-parser": "^1.17.2",
     "core-js": "^2.4.1",
+    "morgan": "^1.8.2",
+    "pg": "^6.2.3",
+    "pg-hstore": "^2.3.2",
     "rxjs": "^5.1.0",
+    "sequelize": "^3.30.4",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
@@ -35,10 +40,11 @@
     "karma": "~1.4.1",
     "karma-chrome-launcher": "~2.1.1",
     "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^0.2.0",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "karma-coverage-istanbul-reporter": "^0.2.0",
     "protractor": "~5.1.0",
+    "sequelize-cli": "^2.7.0",
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
