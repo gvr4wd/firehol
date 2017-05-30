@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import {PrettyJsonModule} from 'angular2-prettyjson';
+
+
 import { AppComponent } from './app.component';
 import {FireholService} from "./firehol.service";
 
@@ -13,7 +16,9 @@ import {FireholService} from "./firehol.service";
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+
+    PrettyJsonModule,
   ],
   providers: [FireholService],
   bootstrap: [AppComponent]

@@ -2,6 +2,6 @@
   {{title}}
 </h1>
 <button class="btn" (click)="getAllIps()">Get</button>
-<div>
-  {{allIps | json}}
+<div *ngFor="let ip of allIps">
+  {{ip | json}}
 </div>
